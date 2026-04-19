@@ -1,6 +1,7 @@
 # callout-maker
 a python everything except frontmatter to callout maker
 
+```
 import os
 
 # --- KONFIGURATION ---
@@ -67,3 +68,4 @@ for dateiname in os.listdir(ORDNER_PFAD):
                 f_neu.write(f"> {zeile}\n")
 
 print(f"Fertig! Die Dateien in '{ZIEL_ORDNER}' sollten das Frontmatter jetzt oben behalten haben.")
+```
